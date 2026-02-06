@@ -1,0 +1,63 @@
+header {
+    
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.sidebar {
+    display: grid;
+    background-color: lightgray;
+    width: 200px;
+    height: calc(100vh - 50px);
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 125px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#add-deck {
+    align-self: end;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+.main-content {
+    padding: 0;
+    margin: 0;
+}
